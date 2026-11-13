@@ -20,7 +20,7 @@ Exemplo: a base de 31/10 será utilizada para prever as saídas de novembro.
 
 ## Variável target
 
-A variável alvo é `churn_vol_30d`:
+Target variable: `churn_vol_30d`:
 
 - `0`: a linha não saiu no mês seguinte.
 - `1`: a linha saiu por cancelamento ou portabilidade no mês seguinte.
@@ -29,10 +29,10 @@ Apesar do nome `30d`, a definição da target considera o mês seguinte.
 
 ## Etapa atual
 
-- Carregamento do dataset.
-- Verificação de dimensões, tipos, nulos e duplicatas.
-- Análise da distribuição da target.
-- Cálculo da taxa de churn por mês de referência.
+- Load dataset.
+- Checking dimensions, types, null values and duplicates.
+- Analysis of the target distribution.
+- Calculation of the churn rate for the reference month.
 
 ## Ferramentas
 
