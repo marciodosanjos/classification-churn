@@ -27,10 +27,10 @@ Target variable: `churn_vol_30d`:
 
 Apesar do nome `30d`, a definição da target considera o mês seguinte.
 
-## Etapa atual
+## Etapas
 
 - Load dataset.
-- Checking dimensions, types, null values and duplicates.
+- Fixing types, null values and duplicates.
 - Analysis of the target distribution.
 - Calculation of the churn rate for the reference month.
 
